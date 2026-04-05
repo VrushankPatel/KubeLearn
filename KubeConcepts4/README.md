@@ -1,7 +1,3 @@
-Here is your comprehensive, brutal-truth, interview-ready guide to Kubernetes. It is built from first principles: from the cluster level (the machines and brains) down to the pod level (the applications).
-
----
-
 ### A. 10-Second Summary of Kubernetes
 Kubernetes is an operating system for server clusters. It takes a fleet of machines and turns them into a single, massive pool of compute resources. You declare *what* you want to run, and Kubernetes figures out *how* and *where* to run it, automatically healing failures to match your desired state.
 

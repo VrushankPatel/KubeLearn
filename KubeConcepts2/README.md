@@ -1,5 +1,3 @@
-Below is a current, doc based map as of 5 Apr 2026. The core mental model is simple. Kubernetes keeps desired state in the API server, stores it in etcd, controllers reconcile it, the scheduler picks a node, and kubelet on that node makes the Pod real. Everything else is a layer on top of that loop. ([Kubernetes][1])
-
 ## A. 10 second summary of Kubernetes
 
 Kubernetes is a control system for containers. You declare what you want, such as 3 Pods, a stable Service endpoint, some storage, and some policy. Kubernetes then keeps correcting drift until reality matches the spec. Pods run on Nodes, Services give stable networking, controllers like Deployment or StatefulSet keep things alive, and storage, security, scaling, and observability are all separate concerns. ([Kubernetes][2])
